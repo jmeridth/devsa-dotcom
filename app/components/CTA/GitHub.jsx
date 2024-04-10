@@ -18,14 +18,14 @@ export function GitHubSection() {
                   <div className="relative mx-auto max-w-7xl py-10 sm:py-32 lg:px-8 lg:py-40">
                      <div className="pl-6 pr-6 md:mr-auto md:w-2/3 md:pr-16 lg:w-1/2 lg:pl-0 lg:pr-24 xl:pr-32">
                         <h2 className="text-base font-semibold leading-7 text-spursPink">
-                           Let's build together San Antonio
+                           Pull Request Welcome
                         </h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-neutral-950 sm:text-4xl">
-                           Pull Request Welcome
+                           Open Source Collaboration
                         </p>
                         <p className="mt-6 text-wrap text-base leading-7 text-neutral-800">
-                           We've enabled GitHub Discussions and introduced a structured template for reporting issues and bugs, streamlining the process for improved efficiency and clarity
-
+                           The DEVSA GitHub is your playground for open-source innovation! Whether you're a seasoned developer or just starting out, 
+                           you're welcome to join the collaborative spirit
                         </p>
                         <div className="mt-8">
                            <Link

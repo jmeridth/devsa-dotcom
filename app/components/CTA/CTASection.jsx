@@ -1,0 +1,76 @@
+import { SectionIntro } from "~/components/SectionIntro";
+import { Container } from "~/components/Container";
+import { List, ListItem } from "~/components/List";
+import { FadeIn } from "~/components/FadeIn";
+
+export function CTASection() {
+
+  return (
+    <div className='relative mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40 rounded-3xl px-6 py-4 pb-24 bg-neutral-950'>
+      <SectionIntro
+        eyebrow="Beyond the headlines"
+        title="The tech sector is buzzing with excitement"
+        invert={true}
+        >
+          <p>
+            The thriving cybersecurity space is a major pillar for the city, and the growing relationship with the South Texas Triangle holds immense promise
+         </p>
+         <p className="mt-6 hdr">
+          But amidst this growth, a crucial segment of the tech ecosystem seems overlooked:{' '}
+          <strong className="gradient-text">
+            OUR DEVELOPERS
+          </strong>
+          </p>
+      </SectionIntro>
+      <Container className="mt-16">
+        <div className="lg:flex lg:items-center lg:justify-end">
+            <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
+                <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+                    <video 
+                      autoPlay 
+                      loop 
+                      muted 
+                      playsInline 
+                      controls
+                      className="w-full h-auto rounded-3xl shadow-lg"
+                      >
+                        <source 
+                          src="https://res.cloudinary.com/jessebubble/video/upload/v1712699560/656bda24731b4af4887ea7c89d1555a4_sqlima.mp4"
+                          type="video/mp4"
+                        />
+                    </video>
+                </FadeIn>
+            </div>
+            <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+                <ListItem title="The Unsung Hereos">
+                  Layoffs have impacted developers, leaving many feeling uncertain and unsupported. 
+                  Bootcamp graduates, enthusiastic but underprepared, often struggle to bridge the gap between theoretical knowledge and practical application. 
+                  This lack of focus on developer needs hinders the tech sector's true potential
+                </ListItem>
+                <ListItem title="Beyond the Headlines">
+                  The flashy headlines about cybersecurity and startups rarely delve deeper. 
+                  The real power behind this growth lies in the tools, languages, and frameworks developers wield to build the technology driving progress
+                </ListItem>
+                <ListItem title="Call for Action">
+                  San Antonio's tech scene has the potential to be truly inclusive. 
+                  Let's champion the developers who form the backbone of innovation. 
+                  We need to provide them with resources, training, and support to thrive in this ever-evolving landscape
+                </ListItem>
+            </List>
+        </div>
+    </Container>
+
+      <style>
+        {`
+        .hdr .gradient-text {
+          background: linear-gradient(to right in oklch, color(display-p3 1 0 .5), color(display-p3 0 1 1));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          }
+        }
+    `}
+        </style>
+
+    </div>
+  )
+}

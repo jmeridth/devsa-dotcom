@@ -14,7 +14,7 @@ export function MarqueeSection() {
 
    return (
       <>
-         <Container className="mt-24 sm:mt-32 lg:mt-40">
+         <Container className="mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40">
             <FadeIn>
                <div className="marquee -my-4 flex justify-center gap-5 py-4 sm:gap-8">
                   {imageArray.map((image, index) => (
@@ -72,24 +72,24 @@ const imageArray = [
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708041429/huggingface_hufljq.png',
    },
    {
-      name: 'spring',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708241255/spring_o7tta0.png',
+      name: 'cloud',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694700/terminal-google-cloud_q5nfdm.png',
    },
    {
-      name: 'vite',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122486/vite_xbzdby.png',
+      name: 'github',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707781399/midjourney/github_hlswbo.png',
    },
    {
-      name: 'remix',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122485/remix_q0dzq3.png',
+      name: 'azure',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694891/terminal-azure_v9xpf3.png',
    },
    {
       name: 'deno',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122484/deno_xxhibx.png',
    },
    {
-      name: 'blazor',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708241255/blazor_gwq6t6.png',
+      name: 'python',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694280/terminal-python_zx2ijr.png',
    },
    {
       name: 'react',

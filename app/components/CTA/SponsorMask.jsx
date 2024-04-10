@@ -24,8 +24,7 @@ export function SponsorMask() {
                   <div className="relative isolate overflow-hidden rounded-3xl bg-neutral-950 px-6 py-24 text-center shadow-2xl sm:px-16">
                      {GradientMask()}
                      <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-                        There is a significant disparity in defining San Antonio's tech landscape. 
-                        devSA strives to mitigate this gap by establishing a vibrant hub that fosters an inclusive atmosphere for the local tech community
+                     DEVSA is a non-profit educational organization shaping the identity of tech in San Antonio by fostering a skilled and vibrant software development community. 
                      </p>
                      <div className="mx-auto mt-10 flex max-w-xl items-center justify-center">
                         <div className="relative flex h-24 w-24 flex-none items-center justify-center">
@@ -38,14 +37,13 @@ export function SponsorMask() {
                         </div>
                         <div className="ml-8 lg:w-64">
                            <p className="text-base font-semibold text-white">
-                              <Link to="https://donate.stripe.com/bIY7sy6FecLJeTm5kk">
+                              <Link to="https://donate.stripe.com/00g3cq2yM2XsbGU144">
                                  <span className="absolute inset-0 sm:rounded-2xl" />
                                  Click QR Code to Donate
                               </Link>
                            </p>
                            <p className="mt-1 text-balance text-sm text-neutral-300">
-                              We are actively seeking two key elements: sponsors
-                              and collaborative organizations
+                           Let's champion the developers who form the backbone of innovation
                            </p>
                         </div>
                      </div>
@@ -81,7 +79,7 @@ function GradientMask() {
       <Container className="">
          <FadeIn>
             <div className="noise grid grid-cols-1 place-items-center">
-               <h3 className="text-7xl font-black sm:text-9xl">devSA</h3>
+               <h3 className="text-7xl font-black sm:text-9xl">DEVSA</h3>
             </div>
 
             <style>

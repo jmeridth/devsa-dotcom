@@ -7,12 +7,12 @@ export function CalendarSection() {
     return (
         <div className="mt-24 sm:mt-32 lg:mt-40">
             <SectionIntro
-                eyebrow="Experience it for yourself"
-                title="Shaping the identity of tech in San Antonio"
+                eyebrow="Network and Collaborate"
+                title="Connect with developers and build your network"
             >
                 <p>
-                    The landscape of in-person meetups in San Antonio is expanding rapidly, and it's exciting to see the emergence of tech community spaces.
-                    But don't just take our word for it. Come and experience the vibrant tech community in San Antonio for yourself!
+                    Whether you are a seasoned developer or just starting your journey, 
+                    don't miss these opportunities to learn and connect with the <strong>DEVSA</strong> community!
                 </p>
             </SectionIntro>
             <Container className="mt-16">

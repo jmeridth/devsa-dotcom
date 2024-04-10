@@ -1,4 +1,4 @@
-# Welcome to Military City, USA
+# Shaping the identity of tech in San Antonio
 
 In our city, there's a significant gap in the field of software development. **devSA** is dedicated to bridging this gap by establishing a dynamic hub that fosters an environment of innovative solutions for users, transcending boundaries of platform and technology
 

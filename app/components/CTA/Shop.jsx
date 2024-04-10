@@ -24,7 +24,7 @@ export function ShopSection() {
             invert
          >
             <p>
-               Every purchase you make contributes to the devSA mission of molding San Antonio's tech identity.
+               Every purchase you make contributes to the DEVSA mission of molding San Antonio's tech identity.
                We strive to foster an inclusive atmosphere within the local tech community.
                Your support helps us maintain this vibrant hub
             </p>
