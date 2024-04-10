@@ -68,9 +68,10 @@ export function MarqueeSection() {
 
 const imageArray = [
    {
-      name: 'huggingface',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708041429/huggingface_hufljq.png',
+      name: 'python',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694280/terminal-python_zx2ijr.png',
    },
+
    {
       name: 'cloud',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694700/terminal-google-cloud_q5nfdm.png',
@@ -84,12 +85,12 @@ const imageArray = [
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694891/terminal-azure_v9xpf3.png',
    },
    {
-      name: 'deno',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122484/deno_xxhibx.png',
+      name: 'huggingface',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708041429/huggingface_hufljq.png',
    },
    {
-      name: 'python',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694280/terminal-python_zx2ijr.png',
+      name: 'deno',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122484/deno_xxhibx.png',
    },
    {
       name: 'react',

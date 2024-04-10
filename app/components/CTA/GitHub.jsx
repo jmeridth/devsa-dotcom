@@ -24,8 +24,10 @@ export function GitHubSection() {
                            Open Source Collaboration
                         </p>
                         <p className="mt-6 text-wrap text-base leading-7 text-neutral-800">
-                           The DEVSA GitHub is your playground for open-source innovation! Whether you're a seasoned developer or just starting out, 
-                           you're welcome to join the collaborative spirit
+                           The DEVSA GitHub is your playground for open-source
+                           innovation! Whether you're a seasoned developer or
+                           just starting out, you're welcome to join the
+                           collaborative spirit
                         </p>
                         <div className="mt-8">
                            <Link

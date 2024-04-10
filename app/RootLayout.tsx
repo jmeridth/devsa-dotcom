@@ -60,12 +60,11 @@ function NavBar({
             </Link>
             <div className="flex items-center gap-x-6">
                <Button
-                  className={clsx(
-                     'text-left text-white',
-                     invert ? 'bg-neutral-950' : 'bg-white'
-                  )}
+                  href="/gemini-api"
+                  invert={invert}
+                  className=""
                >
-                  Follow us on social media
+                  Build with Google AI
                </Button>
                <button
                   ref={toggleRef}

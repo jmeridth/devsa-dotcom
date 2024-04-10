@@ -25,7 +25,8 @@ export default function App() {
                content="width=device-width, initial-scale=1"
             />
             <title>
-               DEVSA is a educational non-profit organization for the software development and engineer community
+               DEVSA is a educational non-profit organization for the software
+               development and engineer community
             </title>
             <Meta />
             <Links />

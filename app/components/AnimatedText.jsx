@@ -34,7 +34,7 @@ export function AnimatedText() {
                '--secondary': 'hsla(0,0%,100%,0.5)',
                '--highlight': '2',
                '--spread': '1',
-               'line-height': 'normal'
+               'line-height': 'normal',
             }}
          >
             <span className="text-neutral-950">Building for</span>{' '}

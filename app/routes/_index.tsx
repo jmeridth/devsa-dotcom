@@ -7,7 +7,7 @@ import { SponsorMask } from '~/components/CTA/SponsorMask';
 import { ShopSection } from '~/components/CTA/Shop';
 import { CalendarSection } from '~/components/CTA/Calendar';
 import { WavyBackgroundHero } from '~/components/CTA/WavyBackgroundHero';
-import { CTASection } from '~/components/CTA/CTASection';
+import { BeyondHeadlines } from '~/components/CTA/BeyondHeadlines';
 import { ParallaxScroll } from '~/components/CTA/ParallaxScroll';
 import { HeroHighlight } from '~/components/CTA/HeroHighlight';
 
@@ -19,7 +19,7 @@ export const meta: MetaFunction = () => {
       {
          name: 'DEVSA - Leveraging the power of our tech community in San Antonio',
          content:
-            "DEVSA is a educational non-profit organization for the software development and engineer community",
+            'DEVSA is a educational non-profit organization for the software development and engineer community',
       },
    ];
 };
@@ -29,12 +29,12 @@ export default function Index() {
       <>
          <WavyBackgroundHero />
          <MarqueeSection />
-         <CTASection />
+         <BeyondHeadlines />
          <MissionSection />
          <HeroHighlight />
          <ParallaxScroll />
-         <CalendarSection />
          <ShopSection />
+         <CalendarSection />
          <DiscordSection />
          <GitHubSection />
          <SponsorMask />

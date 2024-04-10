@@ -20,12 +20,15 @@ export function DiscordSection() {
                         <h2 className="text-base font-semibold leading-7 text-spursPink">
                            Join the DEVSA Discord!
                         </h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-neutral-950 sm:text-4xl text-balance">
+                        <p className="mt-2 text-balance text-3xl font-bold tracking-tight text-neutral-950 sm:text-4xl">
                            Connect with San Antonio's Developer Community
                         </p>
                         <p className="mt-6 text-wrap text-base leading-7 text-neutral-800">
-                           From casual chats in the <strong>social lounge</strong> to focused study sessions with the <strong>coder study group</strong>, 
-                           you'll find a vibrant community of developers ready to connect, collaborate, and grow together
+                           From casual chats in the{' '}
+                           <strong>social lounge</strong> to focused study
+                           sessions with the <strong>coder study group</strong>,
+                           you'll find a vibrant community of developers ready
+                           to connect, collaborate, and grow together
                         </p>
                         <div className="mt-8">
                            <Link

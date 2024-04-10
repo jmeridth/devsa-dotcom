@@ -1,4 +1,4 @@
-// Site Logo 
+// Site Logo
 export function Logo({ ...props }) {
    return (
       <svg viewBox="200 150 392 312" {...props}>
