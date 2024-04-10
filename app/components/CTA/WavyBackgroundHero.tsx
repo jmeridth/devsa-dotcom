@@ -15,7 +15,7 @@ export function WavyBackgroundHero() {
                      Shaping the identity of tech in San Antonio
                   </span>
                   <span className="font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
-                     Building a Thriving Hub!
+                     The Software Developer Hub for San Antonio
                   </span>
                </h1>
                <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-600 lg:text-center">

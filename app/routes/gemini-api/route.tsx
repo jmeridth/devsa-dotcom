@@ -8,12 +8,10 @@ export default function Index() {
    return (
       <>
          <PageIntro
-            eyebrow="Building a Thriving Hub"
-            title="Build with AI - Gemini API"
-            centered
+            eyebrow="Build with Gemini"
+            title="Experience Google's largest and most capable AI model"
          >
             <p>
-               Whether you're a seasoned developer or just starting your AI journey, this workshop is for you!
                Don't miss this opportunity to learn from an industry leader, gain valuable hands-on experience, and connect with the DEVSA community!{' '}
                <strong>This is a FREE event</strong>
             </p>
