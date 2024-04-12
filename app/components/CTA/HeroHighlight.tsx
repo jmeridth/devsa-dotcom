@@ -29,7 +29,7 @@ export function HeroHighlight() {
                      <span className="mt-6 block lg:text-center">
                         <FadeIn>
                            <Highlight className="text-neutral-950">
-                              Software Developers
+                              Developers!
                            </Highlight>
                         </FadeIn>
                      </span>

@@ -54,7 +54,7 @@ export const ParallaxScrollSecond = ({
                   >
                      <GrayscaleTransitionImage
                         src={el}
-                        className="!m-0 h-80 w-full gap-10 rounded-lg object-cover !p-0"
+                        className="!m-0 h-80 w-full gap-10 rounded-lg bg-neutral-700 object-cover !p-0"
                         height="400"
                         width="400"
                         alt="thumbnail"
@@ -75,7 +75,7 @@ export const ParallaxScrollSecond = ({
                   </motion.div>
                ))}
             </div>
-            <div className="grid gap-10">
+            <div className="hidden md:grid md:gap-10">
                {thirdPart.map((el, idx) => (
                   <motion.div
                      style={{
@@ -107,27 +107,19 @@ export function ParallaxScroll() {
 const images = [
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712737/IMG_2580_pc0u0i.jpg',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715611/IMG_2388_dpmnw0.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712718166/devsa-duotone_1_nbnmb7.png',
+   'https://res.cloudinary.com/jessebubble/image/upload/v1712894993/discord-hub_1_omy1gi.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712716534/techbloc_nqjgux.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_4_Front_do9uon.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1708041444/images_modern_Huggies_Doodle_Huggy_cqsv7a.gif',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712712736/devsa-gdgsa-meetup-2_rhtvtl.png',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712717993/devsahub_ajd71u.gif',
 
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712736/devsa-gdgsa-meetup-2_rhtvtl.png',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712927/656bda24731b4af4887ea7c89d1555a4_2_dpby2o.gif',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712715609/unnamed_ztetko.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712715836/panda_zj7qwy.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712717116/portsa_jp76y2.png',
    'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_3_Context_g7z6bl.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712717115/capital-factory_vhsdxp.gif',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712715854/RPReplay_Final1711840240_1_x2wuc8.gif',
+   'https://res.cloudinary.com/jessebubble/image/upload/v1712715836/panda_zj7qwy.gif',
+
+   'https://res.cloudinary.com/jessebubble/image/upload/v1712715609/unnamed_ztetko.jpg',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715609/IMG_2369_o5jia2.jpg',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715609/FullSizeRender_wvveqh.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712718167/python-duotone_1_crefml.png',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712717465/projectquest_1_wirpcl.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1708540839/printify/Lifestyle_alkmqv.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1708111969/Vibing_Huggy_pstjli.gif',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712712736/devsa-gdgsa-meetup-2_rhtvtl.png',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712717993/devsahub_ajd71u.gif',
 ];

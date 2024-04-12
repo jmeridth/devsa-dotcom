@@ -8,7 +8,7 @@ export default function Index() {
    return (
       <>
          <PageIntro
-            eyebrow="Build with Gemini"
+            eyebrow="Build with Gemini API"
             title="Experience Google's largest and most capable AI model"
          >
             <p>
@@ -21,7 +21,7 @@ export default function Index() {
                href="https://lu.ma/jm2wsrqx"
                invert={false}
             >
-               RSVP before we hit capacity!
+               RSVP and Collaborate!
             </Button>
          </PageIntro>
          <FadeIn>

@@ -139,8 +139,7 @@ function Navigation() {
                Our Story <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
             <NavigationItem href="/">
-               Board of Directors{' '}
-               <span className="arrow text-spursTurq">→</span>
+               The Board <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
          </NavigationRow>
          <NavigationRow>

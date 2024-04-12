@@ -4,37 +4,72 @@ import clsx from 'clsx';
 import { Container } from '../Container';
 import { FadeIn } from '../FadeIn';
 import { Button } from '../Button';
+import { SocialMedia } from '../SocialMedia';
 
 export function WavyBackgroundHero() {
+   const [isSocialMediaVisible, setIsSocialMediaVisible] = useState(true);
+
+   useEffect(() => {
+      const handleScroll = () => {
+         const show = window.scrollY < 100;
+         if (show !== isSocialMediaVisible) {
+            setIsSocialMediaVisible(show);
+         }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+         window.removeEventListener('scroll', handleScroll);
+      };
+   }, [isSocialMediaVisible]);
+
    return (
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
-         <FadeIn>
-            <WavyBackground className="mx-auto">
-               <h1 className="mx-auto lg:text-center">
-                  <span className="font-display block text-base font-semibold text-neutral-950">
-                     Shaping the identity of tech in San Antonio
-                  </span>
-                  <span className="font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
-                     The Software Developer Hub for San Antonio
-                  </span>
-               </h1>
-               <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-600 lg:text-center">
-                  <strong>DEVSA</strong> is a educational non-profit
-                  organization for the software development and engineer
-                  community
-               </p>
-               <div className="item-center flex lg:justify-center">
-                  <Button
-                     className="mt-8"
-                     href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
-                     invert={false}
-                  >
-                     Donations powered by Stripe
-                  </Button>
-               </div>
-            </WavyBackground>
-         </FadeIn>
-      </Container>
+      <>
+         <Container className="mt-24 sm:mt-32 lg:mt-40">
+            <FadeIn>
+               <WavyBackground className="mx-auto" speed="slow">
+                  <h1 className="mx-auto lg:text-center">
+                     <span className="font-display block text-base font-semibold text-neutral-950">
+                        Shaping the identity of tech in San Antonio
+                     </span>
+                     <span className="font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
+                        The Software Developer Hub for San Antonio
+                     </span>
+                  </h1>
+                  <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-600 lg:text-center">
+                     <strong>DEVSA</strong> is a educational non-profit
+                     organization for the software development and engineer
+                     community
+                  </p>
+                  <div className="item-center flex lg:justify-center">
+                     <Button
+                        className="mt-8"
+                        href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                        invert={false}
+                     >
+                        Click to Donate
+                     </Button>
+                  </div>
+               </WavyBackground>
+            </FadeIn>
+            <div
+               className={`social-media relative inset-x-0 bottom-0 -ml-16 mt-10 flex justify-center lg:ml-0 lg:mt-16 lg:justify-end ${isSocialMediaVisible ? '' : 'hide'}`}
+            >
+               <SocialMedia invert={false} className="" />
+            </div>
+         </Container>
+
+         <style>
+            {`
+            .social-media {
+               transition: transform 3s ease-in-out;
+            }
+            .social-media.hide {
+               transform: translateX(100%);
+            }
+         `}
+         </style>
+      </>
    );
 }
 
