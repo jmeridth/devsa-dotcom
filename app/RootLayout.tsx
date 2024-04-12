@@ -6,6 +6,20 @@ import { Container } from '~/components/Container';
 import { Button } from '~/components/Button';
 import { Logo } from '~/components/images/Logo';
 import { Footer } from '~/components/Footer';
+import { SocialMedia } from './components/SocialMedia';
+import qrCode from '~/components/images/qr-code.svg';
+
+function QrCodeBorder(props: any) {
+   return (
+      <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" {...props}>
+         <path
+            d="M1 17V9a8 8 0 0 1 8-8h8M95 17V9a8 8 0 0 0-8-8h-8M1 79v8a8 8 0 0 0 8 8h8M95 79v8a8 8 0 0 1-8 8h-8"
+            strokeWidth="2"
+            strokeLinecap="round"
+         />
+      </svg>
+   );
+}
 
 export function RootLayout({ children }: { children: React.ReactNode }) {
    let pathname = useFetcher();
@@ -59,11 +73,7 @@ function NavBar({
                <Logo className="h-10 w-auto" />
             </Link>
             <div className="flex items-center gap-x-6">
-               <Button
-                  href="/gemini-api"
-                  invert={invert}
-                  className=""
-               >
+               <Button href="/events" invert={invert} className="">
                   Build with Google AI
                </Button>
                <button
@@ -125,19 +135,20 @@ function Navigation() {
    return (
       <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
          <NavigationRow>
-            <NavigationItem href="https://discord.gg/f3gnmjScW3">
-               Discord <span className="arrow text-spursTurq">→</span>
+            <NavigationItem href="/">
+               Our Story <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
-            <NavigationItem href="https://github.com/devsanantonio">
-               GitHub <span className="arrow text-spursTurq">→</span>
+            <NavigationItem href="/">
+               Board of Directors{' '}
+               <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
          </NavigationRow>
          <NavigationRow>
-            <NavigationItem href="https://www.youtube.com/@devSATX">
-               YouTube <span className="arrow text-spursTurq">→</span>
+            <NavigationItem href="/">
+               Call for Action <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
-            <NavigationItem href="https://www.reddit.com/r/devSA">
-               Twitch <span className="arrow text-spursTurq">→</span>
+            <NavigationItem href="/events">
+               Official Events <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
          </NavigationRow>
          <style>
@@ -230,6 +241,37 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                      />
                   </div>
                   <Navigation />
+                  <div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
+                     <Container className="">
+                        <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
+                           <div>
+                              <h2 className="font-display text-base font-semibold text-white">
+                                 Click QR Code to Donate
+                              </h2>
+                              <div className="relative mt-3.5 flex h-10 w-10 flex-none items-center justify-center">
+                                 <Link
+                                    to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                 >
+                                    <QrCodeBorder className="absolute inset-0 h-full w-full stroke-white" />
+                                    <img
+                                       src={qrCode}
+                                       alt="Stripe QR code"
+                                       className="h-9 w-9 rounded-lg bg-white p-2"
+                                    />
+                                 </Link>
+                              </div>
+                           </div>
+                           <div className="sm:border-l sm:border-transparent sm:pl-16">
+                              <h2 className="font-display text-base font-semibold text-white">
+                                 Follow us
+                              </h2>
+                              <SocialMedia className="mt-6" invert />
+                           </div>
+                        </div>
+                     </Container>
+                  </div>
                </motion.div>
             </motion.div>
          </header>

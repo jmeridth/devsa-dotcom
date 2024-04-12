@@ -2,6 +2,7 @@ import { SectionIntro } from '~/components/SectionIntro';
 import { Container } from '~/components/Container';
 import { List, ListItem } from '~/components/List';
 import { FadeIn } from '~/components/FadeIn';
+import { StylizedVideo } from '~/components/StylizedVideo';
 
 export function BeyondHeadlines() {
    return (
@@ -19,26 +20,19 @@ export function BeyondHeadlines() {
             <p className="hdr mt-6">
                But amidst this growth, a crucial segment of the tech ecosystem
                seems overlooked:{' '}
-               <strong className="gradient-text lg:uppercase">our developers</strong>
+               <strong className="gradient-text lg:uppercase">
+                  our developers
+               </strong>
             </p>
          </SectionIntro>
          <Container className="mt-16">
             <div className="lg:flex lg:items-center lg:justify-end">
                <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
                   <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-                     <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        controls
-                        className="h-auto w-full rounded-3xl shadow-lg"
-                     >
-                        <source
-                           src="https://res.cloudinary.com/jessebubble/video/upload/v1712699560/656bda24731b4af4887ea7c89d1555a4_sqlima.mp4"
-                           type="video/mp4"
-                        />
-                     </video>
+                     <StylizedVideo
+                        sizes="(min-width: 1024px) 41rem, 31rem"
+                        className="justify-center lg:justify-end"
+                     />
                   </FadeIn>
                </div>
                <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">

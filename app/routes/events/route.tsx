@@ -12,18 +12,17 @@ export default function Index() {
             title="Experience Google's largest and most capable AI model"
          >
             <p>
-               Don't miss this opportunity to learn from an industry leader, gain valuable hands-on experience, and connect with the DEVSA community!{' '}
-               <strong>This is a FREE event</strong>
+               Don't miss this opportunity to learn from an industry leader,
+               gain valuable hands-on experience, and connect with the DEVSA
+               community! <strong>This is a FREE event</strong>
             </p>
             <Button
                className="mt-8"
                href="https://lu.ma/jm2wsrqx"
                invert={false}
             >
-               RSVP before we hit capacity! 
+               RSVP before we hit capacity!
             </Button>
-
-
          </PageIntro>
          <FadeIn>
             <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">

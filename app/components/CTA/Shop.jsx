@@ -25,7 +25,8 @@ export function ShopSection() {
          >
             <p>
                Every purchase you make contributes to the DEVSA mission of
-               shaping the identity of tech in San Antonio by fostering a skilled and vibrant software development community
+               shaping the identity of tech in San Antonio by fostering a
+               skilled and vibrant software development community
             </p>
             <Link
                to="https://devsanantonio.printify.me/products"

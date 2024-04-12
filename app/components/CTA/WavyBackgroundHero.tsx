@@ -23,14 +23,14 @@ export function WavyBackgroundHero() {
                   organization for the software development and engineer
                   community
                </p>
-               <div className='flex item-center lg:justify-center'>
-               <Button
-                  className="mt-8"
-                  href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
-                  invert={false}
-               >
-                  Donations powered by Stripe
-               </Button>
+               <div className="item-center flex lg:justify-center">
+                  <Button
+                     className="mt-8"
+                     href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                     invert={false}
+                  >
+                     Donations powered by Stripe
+                  </Button>
                </div>
             </WavyBackground>
          </FadeIn>

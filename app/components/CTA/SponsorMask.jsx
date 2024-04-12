@@ -39,14 +39,18 @@ export function SponsorMask() {
                         </div>
                         <div className="ml-8 lg:w-64">
                            <p className="text-base font-semibold text-white">
-                              <Link to="https://donate.stripe.com/00g3cq2yM2XsbGU144" target="_blank" rel="noopener noreferrer"> 
+                              <Link
+                                 to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                              >
                                  <span className="absolute inset-0 sm:rounded-2xl" />
                                  Click QR Code to Donate
                               </Link>
                            </p>
                            <p className="mt-1 text-balance text-sm text-neutral-300">
-                              Let's champion the developers who form the
-                              backbone of innovation
+                              Join us in building a stronger developer ecosystem
+                              in San Antonio!
                            </p>
                         </div>
                      </div>
@@ -82,7 +86,7 @@ function GradientMask() {
       <Container className="">
          <FadeIn>
             <div className="noise grid grid-cols-1 place-items-center">
-               <h3 className="text-7xl font-black sm:text-9xl">DEVSA</h3>
+               <h3 className="text-7xl font-black sm:text-9xl">NON-PROFIT</h3>
             </div>
 
             <style>
