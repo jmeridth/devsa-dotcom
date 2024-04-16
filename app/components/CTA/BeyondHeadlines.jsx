@@ -2,7 +2,7 @@ import { SectionIntro } from '~/components/SectionIntro';
 import { Container } from '~/components/Container';
 import { List, ListItem } from '~/components/List';
 import { FadeIn } from '~/components/FadeIn';
-import { StylizedVideo } from '~/components/StylizedVideo';
+import { StylizedImage } from '~/components/StylizedImage';
 
 export function BeyondHeadlines() {
    return (
@@ -29,9 +29,10 @@ export function BeyondHeadlines() {
             <div className="lg:flex lg:items-center lg:justify-end">
                <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
                   <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-                     <StylizedVideo
+                     <StylizedImage
                         sizes="(min-width: 1024px) 41rem, 31rem"
                         className="justify-center lg:justify-end"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/v1713300333/410e4fb33ef44f83b1774203cbe4f263_3_lmgy4g.gif"
                      />
                   </FadeIn>
                </div>

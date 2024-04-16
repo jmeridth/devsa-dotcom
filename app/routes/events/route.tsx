@@ -3,6 +3,7 @@ import { GrayscaleTransitionImage } from '~/components/GrayscaleTransitionImage'
 import { FadeIn } from '~/components/FadeIn';
 import { PageIntro } from '~/components/PageIntro';
 import { Button } from '~/components/Button';
+import clsx from 'clsx';
 
 export default function Index() {
    return (
@@ -24,6 +25,7 @@ export default function Index() {
                RSVP and Collaborate!
             </Button>
          </PageIntro>
+         <article>
          <FadeIn>
             <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
                <Container className="">
@@ -61,6 +63,7 @@ export default function Index() {
                </Container>
             </div>
          </FadeIn>
+         </article>
       </>
    );
 }

@@ -17,62 +17,33 @@ function QrCodeBorder(props) {
 
 export function SponsorMask() {
    return (
-      <div className="mt-24 sm:mt-32">
-         <Container>
+      <div className="mt-24 sm:mt-32 bg-neutral-950 rounded-3xl">
+         <Container className="pt-16 pb-16">
             <FadeIn>
-               <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                  <div className="relative isolate overflow-hidden rounded-3xl bg-neutral-950 px-6 py-24 text-center shadow-2xl sm:px-16">
+               <div className="mx-auto flex flex-col md:flex-row items-center justify-center">
+                  <div className="text-center md:text-left">
                      {GradientMask()}
-                     <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-                        DEVSA is a non-profit educational organization shaping
-                        the identity of tech in San Antonio by fostering a
-                        skilled and vibrant software development community.
-                     </p>
-                     <div className="mx-auto mt-10 flex max-w-xl items-center justify-center">
-                        <div className="relative flex h-24 w-24 flex-none items-center justify-center">
-                           <QrCodeBorder className="absolute inset-0 h-full w-full stroke-white" />
+                  </div>
+                  <div className="mt-8 mx-auto flex flex-col items-center justify-center">
+                     <div className="relative flex h-40 w-40 flex-none items-center justify-center">
+                        <Link
+                              to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                           >
+                           <QrCodeBorder className="absolute inset-0 h-full w-full stroke-neutral-300" />
                            <img
                               src={qrCode}
                               alt="Stripe QR code"
-                              className="h-20 w-20 rounded-2xl bg-white p-2"
+                              className="h-36 w-36 rounded-2xl bg-neutral-100 p-2"
                            />
-                        </div>
-                        <div className="ml-8 lg:w-64">
-                           <p className="text-base font-semibold text-white">
-                              <Link
-                                 to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                              >
-                                 <span className="absolute inset-0 sm:rounded-2xl" />
-                                 Click QR Code to Donate
-                              </Link>
-                           </p>
-                           <p className="mt-1 text-balance text-sm text-neutral-300">
-                              Join us in building a stronger developer ecosystem
-                              in San Antonio!
-                           </p>
-                        </div>
+                        </Link>
                      </div>
-                     <svg
-                        viewBox="0 0 1024 1024"
-                        className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
-                        aria-hidden="true"
-                     >
-                        <circle
-                           cx={512}
-                           cy={512}
-                           r={512}
-                           fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
-                           fillOpacity="0.7"
-                        />
-                        <defs>
-                           <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
-                              <stop stopColor="#EEEEEE" />
-                              <stop offset={1} stopColor="#6f42c1" />
-                           </radialGradient>
-                        </defs>
-                     </svg>
+                     <div>
+                        <p className="text-center font-semibold text-sm mt-6 text-neutral-50">
+                           Click QR Code to Donate
+                        </p>
+                     </div>
                   </div>
                </div>
             </FadeIn>
@@ -86,7 +57,10 @@ function GradientMask() {
       <Container className="">
          <FadeIn>
             <div className="noise grid grid-cols-1 place-items-center">
-               <h3 className="text-7xl font-black sm:text-9xl">NON-PROFIT</h3>
+               <h3 className="text-7xl font-black sm:text-9xl">
+                  SHAPE THE
+                  <span className='block'>FUTURE!</span>
+               </h3>
             </div>
 
             <style>

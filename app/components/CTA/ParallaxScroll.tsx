@@ -107,14 +107,14 @@ export function ParallaxScroll() {
 const images = [
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712737/IMG_2580_pc0u0i.jpg',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715611/IMG_2388_dpmnw0.jpg',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1712894993/discord-hub_1_omy1gi.gif',
+   'https://res.cloudinary.com/jessebubble/image/upload/v1712956964/IMG_2980_ltnlpg.jpg',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712716534/techbloc_nqjgux.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_4_Front_do9uon.jpg',
 
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712736/devsa-gdgsa-meetup-2_rhtvtl.png',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712712927/656bda24731b4af4887ea7c89d1555a4_2_dpby2o.gif',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712717116/portsa_jp76y2.png',
-   'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_3_Context_g7z6bl.jpg',
+   'https://res.cloudinary.com/jessebubble/image/upload/v1712957265/launchsa_1_p7k92r.png',
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715836/panda_zj7qwy.gif',
 
    'https://res.cloudinary.com/jessebubble/image/upload/v1712715609/unnamed_ztetko.jpg',
