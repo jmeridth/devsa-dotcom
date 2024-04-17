@@ -26,43 +26,43 @@ export default function Index() {
             </Button>
          </PageIntro>
          <article>
-         <FadeIn>
-            <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
-               <Container className="">
-                  {events.map((event) => (
-                     <div key={event.index} className="mx-auto max-w-5xl">
-                        <dl className="-mx-6 grid grid-cols-1 text-sm text-neutral-950 sm:mx-0 sm:grid-cols-3">
-                           <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                              <dt className="font-semibold">Organization</dt>
-                              <dd>{event.org}</dd>
-                           </div>
-                           <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                              <dt className="font-semibold">Topic</dt>
-                              <dd>{event.topic}</dd>
-                           </div>
-                           <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                              <dt className="font-semibold">Year</dt>
-                              <dd>
-                                 <time>{new Date().getFullYear()}</time>
-                              </dd>
-                           </div>
-                        </dl>
-                        <div className="border-y border-neutral-200 bg-neutral-100">
-                           <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
-                              <GrayscaleTransitionImage
-                                 src={event.image}
-                                 alt="devSA collaboration event"
-                                 quality={90}
-                                 className="w-full"
-                                 sizes="(min-width: 1216px) 76rem, 100vw"
-                              />
+            <FadeIn>
+               <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
+                  <Container className="">
+                     {events.map((event) => (
+                        <div key={event.index} className="mx-auto max-w-5xl">
+                           <dl className="-mx-6 grid grid-cols-1 text-sm text-neutral-950 sm:mx-0 sm:grid-cols-3">
+                              <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                                 <dt className="font-semibold">Organization</dt>
+                                 <dd>{event.org}</dd>
+                              </div>
+                              <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                                 <dt className="font-semibold">Topic</dt>
+                                 <dd>{event.topic}</dd>
+                              </div>
+                              <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                                 <dt className="font-semibold">Year</dt>
+                                 <dd>
+                                    <time>{new Date().getFullYear()}</time>
+                                 </dd>
+                              </div>
+                           </dl>
+                           <div className="border-y border-neutral-200 bg-neutral-100">
+                              <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
+                                 <GrayscaleTransitionImage
+                                    src={event.image}
+                                    alt="devSA collaboration event"
+                                    quality={90}
+                                    className="w-full"
+                                    sizes="(min-width: 1216px) 76rem, 100vw"
+                                 />
+                              </div>
                            </div>
                         </div>
-                     </div>
-                  ))}
-               </Container>
-            </div>
-         </FadeIn>
+                     ))}
+                  </Container>
+               </div>
+            </FadeIn>
          </article>
       </>
    );

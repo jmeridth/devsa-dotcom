@@ -17,20 +17,20 @@ function QrCodeBorder(props) {
 
 export function SponsorMask() {
    return (
-      <div className="mt-24 sm:mt-32 bg-neutral-950 rounded-3xl">
-         <Container className="pt-16 pb-16">
+      <div className="mt-24 rounded-3xl bg-neutral-950 sm:mt-32">
+         <Container className="pb-16 pt-16">
             <FadeIn>
-               <div className="mx-auto flex flex-col md:flex-row items-center justify-center">
+               <div className="mx-auto flex flex-col items-center justify-center md:flex-row">
                   <div className="text-center md:text-left">
                      {GradientMask()}
                   </div>
-                  <div className="mt-8 mx-auto flex flex-col items-center justify-center">
+                  <div className="mx-auto mt-8 flex flex-col items-center justify-center">
                      <div className="relative flex h-40 w-40 flex-none items-center justify-center">
                         <Link
-                              to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                           >
+                           to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
                            <QrCodeBorder className="absolute inset-0 h-full w-full stroke-neutral-300" />
                            <img
                               src={qrCode}
@@ -40,7 +40,7 @@ export function SponsorMask() {
                         </Link>
                      </div>
                      <div>
-                        <p className="text-center font-semibold text-sm mt-6 text-neutral-50">
+                        <p className="mt-6 text-center text-sm font-semibold text-neutral-50">
                            Click QR Code to Donate
                         </p>
                      </div>
@@ -59,7 +59,7 @@ function GradientMask() {
             <div className="noise grid grid-cols-1 place-items-center">
                <h3 className="text-7xl font-black sm:text-9xl">
                   SHAPE THE
-                  <span className='block'>FUTURE!</span>
+                  <span className="block">FUTURE!</span>
                </h3>
             </div>
 

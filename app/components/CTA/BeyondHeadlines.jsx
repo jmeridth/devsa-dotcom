@@ -6,7 +6,7 @@ import { StylizedImage } from '~/components/StylizedImage';
 
 export function BeyondHeadlines() {
    return (
-      <div className="relative mt-24 rounded-3xl bg-neutral-950 px-6 py-4 pb-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40">
+      <div className="relative mt-24 rounded-3xl bg-neutral-950 px-6 py-4 pb-16 pt-16 sm:mt-32 sm:pt-32 lg:mt-40">
          <SectionIntro
             eyebrow="Beyond the headlines"
             title="The tech sector is buzzing with excitement"

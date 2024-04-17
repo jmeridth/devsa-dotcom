@@ -1,7 +1,5 @@
 import type { MetaFunction } from '@remix-run/node';
 import { MissionSection } from '~/components/CTA/TheMission';
-import { GitHubSection } from '~/components/CTA/GitHub';
-import { DiscordSection } from '~/components/CTA/Discord';
 import { MarqueeSection } from '~/components/CTA/Marquee';
 import { SponsorMask } from '~/components/CTA/SponsorMask';
 import { ShopSection } from '~/components/CTA/Shop';
@@ -10,6 +8,7 @@ import { WavyBackgroundHero } from '~/components/CTA/WavyBackgroundHero';
 import { BeyondHeadlines } from '~/components/CTA/BeyondHeadlines';
 import { ParallaxScroll } from '~/components/CTA/ParallaxScroll';
 import { HeroHighlight } from '~/components/CTA/HeroHighlight';
+import { DiscordCommunity } from '~/components/CTA/DiscordCommunity';
 
 export const meta: MetaFunction = () => {
    return [
@@ -31,13 +30,12 @@ export default function Index() {
          <MarqueeSection />
          <BeyondHeadlines />
          <MissionSection />
+         <SponsorMask />
+         <DiscordCommunity />
+         <CalendarSection />
          <HeroHighlight />
          <ParallaxScroll />
          <ShopSection />
-         <CalendarSection />
-         <DiscordSection />
-         <GitHubSection />
-         <SponsorMask />
       </>
    );
 }

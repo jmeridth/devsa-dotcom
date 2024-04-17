@@ -14,7 +14,7 @@ export function MarqueeSection() {
 
    return (
       <>
-         <Container className="mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40">
+         <Container className="mt-24 sm:mt-32 lg:mt-40">
             <FadeIn>
                <div className="marquee -my-4 flex justify-center gap-5 py-4 sm:gap-8">
                   {imageArray.map((image, index) => (
@@ -51,6 +51,11 @@ export function MarqueeSection() {
                     .marquee {
                         animation: marquee 30s linear infinite;
                     }
+                    @media (max-width: 640px) {
+                     .marquee {
+                         animation: marquee 5s linear infinite;
+                     }
+                 }
                     @keyframes marquee {
                         0% {
                             transform: translateX(0);

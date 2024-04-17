@@ -4,6 +4,7 @@ import { SectionIntro } from '~/components/SectionIntro';
 import { Button } from '~/components/Button';
 import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 import { Link } from '@remix-run/react';
+import { useRef } from 'react';
 
 export function ShopSection() {
    let rotations = [
@@ -16,17 +17,25 @@ export function ShopSection() {
       '-rotate-2',
    ];
 
+   const scrollContainerRef = useRef(null);
+
+   const handleImageLoad = () => {
+      if (scrollContainerRef.current) {
+         const scrollContainer = scrollContainerRef.current;
+         scrollContainer.scrollLeft = scrollContainer.scrollWidth / 2;
+      }
+   };
+
    return (
-      <div className="cta mt-24 rounded-3xl px-6 py-4 pb-24 pt-24 sm:mt-32 lg:mt-40">
+      <div className="cta mt-24 rounded-3xl px-6 py-4 pb-16 pt-16 sm:mt-32 lg:mt-40">
          <SectionIntro
-            eyebrow="Show off your tech stack"
-            title="POP-UP SHOP!"
+            eyebrow="POP-UP STORE"
+            title="Building an inclusive tech ecosystem in San Antonio"
             invert
          >
             <p>
-               Every purchase you make contributes to the DEVSA mission of
-               shaping the identity of tech in San Antonio by fostering a
-               skilled and vibrant software development community
+               Every purchase gets us one step closer to creating a thriving
+               tech scene for developers and engineers in the city
             </p>
             <Link
                to="https://devsanantonio.printify.me/products"
@@ -40,7 +49,10 @@ export function ShopSection() {
          </SectionIntro>
          <Container className="mt-16">
             <FadeIn>
-               <div className="-my-4 flex justify-center gap-5 overflow-x-auto py-4 sm:gap-8">
+               <div
+                  ref={scrollContainerRef}
+                  className="-my-4 flex justify-center gap-5 overflow-x-auto py-4 sm:gap-8"
+               >
                   {mockups.map((mockup, index) => (
                      <div
                         key={index}
@@ -56,6 +68,7 @@ export function ShopSection() {
                               src={mockup.src}
                               alt={mockup.alt}
                               className={`slideZoom relative h-full w-full rounded-3xl object-contain ${rotations[index]}`}
+                              onLoad={handleImageLoad}
                            />
                         </Link>
                      </div>

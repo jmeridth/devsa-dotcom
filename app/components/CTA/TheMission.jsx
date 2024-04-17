@@ -143,7 +143,7 @@ function Future() {
       <Section
          title="Preparing Developers for Success!"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694280/devsa-hub_pc1v1k.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1708123120/images_Brand_Logos_Rainbow_Hugging_Face_dgynvl.svg',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">

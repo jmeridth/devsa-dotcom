@@ -29,7 +29,7 @@ export function WavyBackgroundHero() {
             <FadeIn>
                <WavyBackground className="mx-auto" speed="slow">
                   <h1 className="mx-auto lg:text-center">
-                     <span className="hidden md:font-display md:block md:text-base md:font-semibold md:text-neutral-950">
+                     <span className="md:font-display hidden md:block md:text-base md:font-semibold md:text-neutral-950">
                         Shaping the identity of tech in San Antonio
                      </span>
                      <span className="font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">

@@ -2,7 +2,6 @@ import { useMotionValue, motion, useMotionTemplate } from 'framer-motion';
 import clsx from 'clsx';
 import { Container } from '../Container';
 import { FadeIn } from '../FadeIn';
-import { SectionIntro } from '../SectionIntro';
 
 export function HeroHighlight() {
    return (
@@ -25,11 +24,11 @@ export function HeroHighlight() {
                      }}
                      className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl lg:text-center"
                   >
-                     Fostering a skilled and vibrant community for{' '}
+                     Fostering a vibrant developer{' '}
                      <span className="mt-6 block lg:text-center">
                         <FadeIn>
                            <Highlight className="text-neutral-950">
-                              Developers!
+                              Community!
                            </Highlight>
                         </FadeIn>
                      </span>
