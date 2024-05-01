@@ -4,7 +4,6 @@ import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 
 export function SectionIntro({
-   eyebrow,
    title,
    children,
    smaller = false,
@@ -15,19 +14,6 @@ export function SectionIntro({
       <Container {...props}>
          <FadeIn className="max-w-2xl">
             <h2>
-               {eyebrow && (
-                  <>
-                     <span
-                        className={clsx(
-                           'md:font-display hidden md:mb-6 md:block md:text-base md:font-semibold',
-                           invert ? 'text-white' : 'text-neutral-950'
-                        )}
-                     >
-                        {eyebrow}
-                     </span>
-                     <span className="sr-only"> - </span>
-                  </>
-               )}
                <span
                   className={clsx(
                      'font-display block tracking-tight [text-wrap:balance]',

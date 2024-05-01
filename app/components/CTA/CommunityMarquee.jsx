@@ -14,7 +14,7 @@ export function MarqueeSection() {
 
    return (
       <>
-         <Container className="mt-24 sm:mt-32 lg:mt-40">
+         <Container className="mt-16">
             <FadeIn>
                <div className="marquee -my-4 flex justify-center gap-5 py-4 sm:gap-8">
                   {imageArray.map((image, index) => (
@@ -25,7 +25,7 @@ export function MarqueeSection() {
                         <div className="absolute inset-0 rounded-xl" />
                         <img
                            src={image.href}
-                           alt="midjourney collection"
+                           alt="devsa discord community spaces"
                            className={`relative h-full w-full object-contain ${rotations[index]}`}
                         />
                      </div>
@@ -38,7 +38,7 @@ export function MarqueeSection() {
                         <div className="absolute inset-0 rounded-xl" />
                         <img
                            src={image.href}
-                           alt="midjourney collection"
+                           alt="devsa discord community spaces"
                            className={`relative h-full w-full object-contain ${rotations[index]}`}
                         />
                      </div>
@@ -73,32 +73,31 @@ export function MarqueeSection() {
 
 const imageArray = [
    {
-      name: 'python',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694280/terminal-python_zx2ijr.png',
-   },
-
-   {
-      name: 'cloud',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694700/terminal-google-cloud_q5nfdm.png',
+      name: 'llmodelos',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533290/logo-llm-light_ma2tca.png',
    },
    {
-      name: 'github',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707781399/midjourney/github_hlswbo.png',
+      name: 'leetcode',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507371/leetcode-club-nobg-light_defbcu.png',
    },
    {
-      name: 'azure',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1712694891/terminal-azure_v9xpf3.png',
+      name: 'datastream',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533433/logo-discord-data-light_tfxoy5.png',
    },
    {
-      name: 'huggingface',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708041429/huggingface_hufljq.png',
+      name: 'blog',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533960/community-blog-nobg-light_vrfbyc.png',
    },
    {
-      name: 'deno',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122484/deno_xxhibx.png',
+      name: 'frontend',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507960/logo-frontend-light_qsxh6s.png',
    },
    {
-      name: 'react',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1708241255/react_zh7tzb.png',
+      name: 'social',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507372/social-lounge-nobg-light_mcumav.png',
+   },
+   {
+      name: 'study-group',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533792/coder-study-group-nobg-light_othbjt.png',
    },
 ];

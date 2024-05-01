@@ -17,7 +17,7 @@ function QrCodeBorder(props) {
 
 export function SponsorMask() {
    return (
-      <div className="mt-24 rounded-3xl bg-neutral-950 sm:mt-32">
+      <div className="mt-24 bg-neutral-950 sm:mt-32">
          <Container className="pb-16 pt-16">
             <FadeIn>
                <div className="mx-auto flex flex-col items-center justify-center md:flex-row">
@@ -58,8 +58,8 @@ function GradientMask() {
          <FadeIn>
             <div className="noise grid grid-cols-1 place-items-center">
                <h3 className="text-7xl font-black sm:text-9xl">
-                  SHAPE THE
-                  <span className="block">FUTURE!</span>
+                  A Heartfelt
+                  <span className="block">Thank You!</span>
                </h3>
             </div>
 

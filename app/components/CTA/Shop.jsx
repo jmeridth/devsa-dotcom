@@ -28,22 +28,18 @@ export function ShopSection() {
 
    return (
       <div className="cta mt-24 rounded-3xl px-6 py-4 pb-16 pt-16 sm:mt-32 lg:mt-40">
-         <SectionIntro
-            eyebrow="POP-UP STORE"
-            title="Building an inclusive tech ecosystem in San Antonio"
-            invert
-         >
+         <SectionIntro title="Gear Up & Give Back!" invert>
             <p>
-               Every purchase gets us one step closer to creating a thriving
-               tech scene for developers and engineers in the city
+               Shop exclusive DEVSA swag and support the local developer
+               community
             </p>
             <Link
                to="https://devsanantonio.printify.me/products"
                target="_blank"
                rel="noopener noreferrer"
             >
-               <Button className="mt-8 text-neutral-950/80" invert>
-                  Shop Now &rarr;
+               <Button className="mt-8" invert>
+                  Shop Now
                </Button>
             </Link>
          </SectionIntro>
@@ -98,7 +94,7 @@ export function ShopSection() {
                   /* Other styles */
                   background-size: 200% 200%;
                   animation: gradient 10s ease infinite;
-                  background-image: linear-gradient(45deg, #ff8200 0%, #ef426f 55%, #00b2a9 100%);
+                  background-image: linear-gradient(45deg, #000000 0%, #333333 55%, #eeeeee 100%);
                 }
                 
                 @keyframes gradient {

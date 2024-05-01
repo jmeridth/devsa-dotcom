@@ -6,11 +6,10 @@ import { StylizedImage } from '~/components/StylizedImage';
 
 export function BeyondHeadlines() {
    return (
-      <div className="relative mt-24 rounded-3xl bg-neutral-950 px-6 py-4 pb-16 pt-16 sm:mt-32 sm:pt-32 lg:mt-40">
+      <div className="mt-24 sm:mt-32 lg:mt-40">
          <SectionIntro
-            eyebrow="Beyond the headlines"
-            title="The tech sector is buzzing with excitement"
-            invert={true}
+            title="Tech in San Antonio is Buzzing With Excitement"
+            invert={false}
          >
             <p>
                The thriving cybersecurity space is a major pillar for the city,
@@ -20,9 +19,7 @@ export function BeyondHeadlines() {
             <p className="hdr mt-6">
                But amidst this growth, a crucial segment of the tech ecosystem
                seems overlooked:{' '}
-               <strong className="gradient-text lg:uppercase">
-                  our developers
-               </strong>
+               <strong className="lg:uppercase">our developers</strong>
             </p>
          </SectionIntro>
          <Container className="mt-16">
@@ -41,22 +38,18 @@ export function BeyondHeadlines() {
                      Layoffs have impacted developers, leaving many feeling
                      uncertain and unsupported. Bootcamp graduates, enthusiastic
                      but underprepared, often struggle to bridge the gap between
-                     theoretical knowledge and practical application. This lack
-                     of focus on developer needs hinders the tech sector's true
-                     potential
+                     theoretical knowledge and practical application
                   </ListItem>
                   <ListItem title="Beyond the Headlines">
                      The flashy headlines about cybersecurity and startups
-                     rarely delve deeper. The real power behind this growth lies
-                     in the tools, languages, and frameworks developers wield to
-                     build the technology driving progress
+                     rarely delve deeper. This lack of focus on developer needs
+                     hinders the tech sector's true potential
                   </ListItem>
                   <ListItem title="Call for Action">
                      San Antonio's tech scene has the potential to be truly
-                     inclusive. Let's champion the developers who form the
-                     backbone of innovation. We need to provide them with
-                     resources, training, and support to thrive in this
-                     ever-evolving landscape
+                     inclusive. The real power behind this growth lies in the
+                     tools, languages, and frameworks developers wield to build
+                     the technology driving progress
                   </ListItem>
                </List>
             </div>

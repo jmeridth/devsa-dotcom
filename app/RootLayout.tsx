@@ -74,7 +74,7 @@ function NavBar({
             </Link>
             <div className="flex items-center gap-x-6">
                <Button href="/events" invert={invert} className="">
-                  Build with Google AI
+                  Community Events
                </Button>
                <button
                   ref={toggleRef}
@@ -135,7 +135,7 @@ function Navigation() {
    return (
       <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
          <NavigationRow>
-            <NavigationItem href="/">
+            <NavigationItem href="/about">
                Our Story <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
             <NavigationItem href="/">

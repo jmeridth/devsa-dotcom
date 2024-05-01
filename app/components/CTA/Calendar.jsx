@@ -5,14 +5,12 @@ import { SectionIntro } from '../SectionIntro';
 export function CalendarSection() {
    return (
       <div className="mt-24 pt-16 sm:mt-32 md:pt-0 lg:mt-40">
-         <SectionIntro
-            eyebrow="Network and Collaborate"
-            title="Connect with developers and build your network"
-         >
+         <SectionIntro title="Fostering a Thriving Dev Community in San Antonio!">
             <p>
-               Whether you are a seasoned developer or just starting your
-               journey, don't miss these opportunities to learn and connect with
-               the <strong>DEVSA</strong> community!
+               <strong>Network and Collaborate:</strong> Whether you are a
+               seasoned developer or just starting your journey, don't miss
+               these opportunities to learn and connect with the{' '}
+               <strong>DEVSA</strong> community!
             </p>
          </SectionIntro>
          <Container className="mt-16">
