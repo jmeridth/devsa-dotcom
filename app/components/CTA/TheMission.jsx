@@ -1,7 +1,6 @@
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { SectionIntro } from '~/components/SectionIntro';
-import { StylizedImage } from '~/components/StylizedImage';
 import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 
 export function MissionSection() {
@@ -58,7 +57,7 @@ function Tech() {
       <Section
          title="The city lacked a central platform for collaboration"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1714511311/devsa-logo_nvahyh.svg',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1714600496/devsa-bw-logo_cmhpef.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -91,7 +90,7 @@ function Community() {
       <Section
          title="Community is the Result, not the Product!"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1714512276/devsa-logo-bw_da7xso.svg',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1714599154/devsa_u7xs6b.jpg',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">

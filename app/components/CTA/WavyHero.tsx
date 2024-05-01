@@ -24,12 +24,12 @@ export function WavyBackgroundHero() {
                >
                   <h1 className="lg:text-center">
                      <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
-                        Empowering the Software Development Community
+                        Empower the Developer Community
                      </span>
                   </h1>
                   <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-700 lg:text-center">
-                     We are an educational non-profit organization for the
-                     software development and engineer community in San Antonio
+                     We are an educational non-profit for the
+                     software development community in San Antonio
                   </p>
                   <div className="item-center flex lg:justify-center">
                      <Button

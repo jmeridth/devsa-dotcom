@@ -51,17 +51,12 @@ export function MarqueeSection() {
                     .marquee {
                         animation: marquee 30s linear infinite;
                     }
-                    @media (max-width: 640px) {
-                     .marquee {
-                         animation: marquee 5s linear infinite;
-                     }
-                 }
                     @keyframes marquee {
                         0% {
                             transform: translateX(0);
                         }
                         100% {
-                            transform: translateX(-50%);
+                            transform: translateX(-100%);
                         }
                     }
                 `}

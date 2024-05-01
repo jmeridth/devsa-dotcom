@@ -38,7 +38,7 @@ export function StarMarquee() {
                         <div className="absolute inset-0 rounded-xl" />
                         <img
                            src={image.href}
-                           alt="devsa discord community spaces"
+                           alt="devsa star logo with programming languages"
                            className={`relative h-full w-full object-contain ${rotations[index]}`}
                         />
                      </div>
@@ -51,17 +51,12 @@ export function StarMarquee() {
                     .marquee {
                         animation: marquee 30s linear infinite;
                     }
-                    @media (max-width: 640px) {
-                     .marquee {
-                         animation: marquee 5s linear infinite;
-                     }
-                 }
                     @keyframes marquee {
                         0% {
                             transform: translateX(0);
                         }
                         100% {
-                            transform: translateX(-50%);
+                            transform: translateX(-100%);
                         }
                     }
                 `}
