@@ -12,15 +12,6 @@ export function WavyBackgroundHero() {
             <FadeIn>
                <WavyBackground
                   className="mx-auto"
-                  speed="slow"
-                  waveOpacity={0.3}
-                  colors={[
-                     '#6610f2',
-                     '#1DB7BA',
-                     '#0dcaf0',
-                     '#ACDB6B',
-                     '#FACB11',
-                  ]}
                >
                   <h1 className="lg:text-center">
                      <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
@@ -62,7 +53,7 @@ export const WavyBackground = ({
    waveWidth,
    backgroundFill,
    blur = 10,
-   speed = 'fast',
+   speed = 'slow',
    waveOpacity = 0.5,
    ...props
 }: {

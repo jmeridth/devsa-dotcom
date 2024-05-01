@@ -6,10 +6,10 @@ import { MarqueeSection } from '~/components/CTA/CommunityMarquee';
 export function DiscordCommunity() {
    return (
       <div className="mt-24 sm:mt-32 lg:mt-40">
-         <Container className="pt-20 lg:pt-16">
+         <Container className="pt-24 lg:pt-16">
             <FadeIn>
                <h2 className="hdr font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-950 sm:text-7xl lg:text-center">
-                  Find your Community Space on our{' '}
+                  Introducing Community Spaces on{' '}
                   <Link
                      to="https://discord.gg/cvHHzThrEw"
                      target="_blank"

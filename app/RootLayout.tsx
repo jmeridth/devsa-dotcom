@@ -144,7 +144,7 @@ function Navigation() {
          </NavigationRow>
          <NavigationRow>
             <NavigationItem href="/">
-               Call for Action <span className="arrow text-spursTurq">→</span>
+               Our Vision <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
             <NavigationItem href="/events">
                Official Events <span className="arrow text-spursTurq">→</span>

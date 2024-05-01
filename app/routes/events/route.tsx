@@ -15,7 +15,7 @@ export default function Index() {
                the DEVSA community!
             </p>
             <Button className="mt-8" href="https://lu.ma/devSA" invert={false}>
-               Subscribe to our Events Calendar
+               Subscribe to our Calendar
             </Button>
          </PageIntro>
          <article>
@@ -65,16 +65,22 @@ export default function Index() {
 
 const events = [
    {
-      index: 3,
-      org: 'DEVSA',
-      topic: 'Coffee & Collaboration',
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714538684/devsa-coffee-wednesdays-1_qzfqm1.png',
-   },
-   {
-      index: 2,
+      index: 4,
       org: 'PyTexas - Alamo Python',
       topic: "Safeguarding LLM's with Guardrails",
       image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714537942/devsa-alamopython-2_3_qh0org.png',
+   },
+   {
+      index: 3,
+      org: 'DEVSA Discord Community Space',
+      topic: 'Social Lounge: Unwind & Connect',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714599180/social-lounge-2_1_o91vyl.png',
+   },
+   {
+      index: 2,
+      org: 'DEVSA',
+      topic: 'Coffee & Collaboration',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714538684/devsa-coffee-wednesdays-1_qzfqm1.png',
    },
    {
       index: 1,
