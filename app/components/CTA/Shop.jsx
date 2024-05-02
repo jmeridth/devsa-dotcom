@@ -38,9 +38,9 @@ export function ShopSection() {
                target="_blank"
                rel="noopener noreferrer"
             >
-               <Button className="mt-8" invert>
+               <button className="mt-8 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-neutral-950 hover:bg-neutral-100">
                   Shop Now
-               </Button>
+               </button>
             </Link>
          </SectionIntro>
          <Container className="mt-16">

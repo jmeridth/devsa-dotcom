@@ -1,51 +1,37 @@
-import clsx from 'clsx';
 import { useEffect, useRef, useState } from 'react';
 import { createNoise3D } from 'simplex-noise';
+import clsx from 'clsx';
 import { Button } from '~/components/Button';
-import { Container } from '~/components/Container';
-import { FadeIn } from '~/components/FadeIn';
 
 export function WavyBackgroundHero() {
    return (
-      <>
-         <Container className="mt-24 sm:mt-32 lg:mt-40">
-            <FadeIn>
-               <WavyBackground
-                  className="mx-auto"
-               >
-                  <h1 className="lg:text-center">
-                     <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
-                        Empower the Developer Community
-                     </span>
-                  </h1>
-                  <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-700 lg:text-center">
-                     We are an educational non-profit for the
-                     software development community in San Antonio
-                  </p>
-                  <div className="item-center flex lg:justify-center">
-                     <Button
-                        className="mt-8"
-                        href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
-                        invert={false}
-                     >
-                        Learn More
-                     </Button>
-                     <Button
-                        className="ml-4 mt-8"
-                        href="/contact"
-                        invert={true}
-                     >
-                        Donate Now <span className="arrow">→</span>
-                     </Button>
-                  </div>
-               </WavyBackground>
-            </FadeIn>
-         </Container>
-      </>
+      <WavyBackground className="mx-auto max-w-4xl pb-40" speed="slow">
+         <h1 className="lg:text-center">
+            <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
+               Empower the Developer Community
+            </span>
+         </h1>
+         <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-700 lg:text-center">
+            We are an educational non-profit for the software development
+            community in San Antonio
+         </p>
+         <div className="item-center flex lg:justify-center">
+            <Button
+               className="mt-8"
+               href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+               invert={false}
+            >
+               Learn More
+            </Button>
+            <Button className="ml-4 mt-8" href="/contact" invert={true}>
+               Donate Now <span className="arrow">→</span>
+            </Button>
+         </div>
+      </WavyBackground>
    );
 }
 
-export const WavyBackground = ({
+const WavyBackground = ({
    children,
    className,
    containerClassName,
@@ -53,7 +39,7 @@ export const WavyBackground = ({
    waveWidth,
    backgroundFill,
    blur = 10,
-   speed = 'slow',
+   speed = 'fast',
    waveOpacity = 0.5,
    ...props
 }: {
@@ -143,7 +129,7 @@ export const WavyBackground = ({
 
    const [isSafari, setIsSafari] = useState(false);
    useEffect(() => {
-      // safari support
+      // support for safari.
       setIsSafari(
          typeof window !== 'undefined' &&
             navigator.userAgent.includes('Safari') &&
@@ -154,7 +140,7 @@ export const WavyBackground = ({
    return (
       <div
          className={clsx(
-            'flex flex-col items-center justify-center',
+            'flex h-screen flex-col items-center justify-center',
             containerClassName
          )}
       >
