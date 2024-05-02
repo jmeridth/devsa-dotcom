@@ -5,7 +5,7 @@ import { Button } from '~/components/Button';
 
 export function WavyBackgroundHero() {
    return (
-      <WavyBackground className="mx-auto max-w-4xl pb-40" speed="slow">
+      <WavyBackground className="mx-auto max-w-4xl px-6 lg:px-8 pb-40" speed="slow">
          <h1 className="lg:text-center">
             <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
                Empower the Developer Community
