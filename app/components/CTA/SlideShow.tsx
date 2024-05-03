@@ -22,7 +22,7 @@ export function SlideShow() {
 
    return (
       <>
-         <div className="relative mt-24 sm:mt-32 lg:mt-40 w-full h-screen">
+         <div className="relative mt-24 h-screen w-full sm:mt-32 lg:mt-40">
             <ImagesSlider images={images}>
                <motion.div
                   initial={{
@@ -49,7 +49,7 @@ export function SlideShow() {
                         },
                      }}
                   >
-                     <span className="font-display mx-auto lg:mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-white sm:text-6xl">
+                     <span className="font-display mx-auto block max-w-5xl text-balance text-5xl font-medium tracking-tight text-white sm:text-6xl lg:mt-6">
                         <span className="">Built for Empowerment</span>
                      </span>
                   </motion.h1>
@@ -203,12 +203,7 @@ const ImagesSlider = ({
       >
          {areImagesLoaded && children}
          {areImagesLoaded && overlay && (
-            <div
-               className={clsx(
-                  'absolute inset-0 z-40',
-                  overlayClassName
-               )}
-            />
+            <div className={clsx('absolute inset-0 z-40', overlayClassName)} />
          )}
 
          {areImagesLoaded && (

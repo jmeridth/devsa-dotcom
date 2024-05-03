@@ -17,7 +17,7 @@ function QrCodeBorder(props) {
 
 export function SponsorMask() {
    return (
-      <div className="mt-24 bg-neutral-950 sm:mt-32">
+      <div className="mt-24 rounded-3xl bg-neutral-950 sm:mt-32">
          <Container className="pb-16 pt-16">
             <FadeIn>
                <div className="mx-auto flex flex-col items-center justify-center md:flex-row">
@@ -25,7 +25,7 @@ export function SponsorMask() {
                      {GradientMask()}
                   </div>
                   <div className="mx-auto mt-8 flex flex-col items-center justify-center">
-                     <div className="relative flex h-40 w-40 flex-none items-center justify-center">
+                     <div className="relative flex h-36 w-36 flex-none items-center justify-center">
                         <Link
                            to="https://donate.stripe.com/00g3cq2yM2XsbGU144"
                            target="_blank"
@@ -35,7 +35,7 @@ export function SponsorMask() {
                            <img
                               src={qrCode}
                               alt="Stripe QR code"
-                              className="h-36 w-36 rounded-2xl bg-neutral-100 p-2"
+                              className="h-32 w-32 rounded-2xl bg-neutral-100 p-2"
                            />
                         </Link>
                      </div>
@@ -57,10 +57,7 @@ function GradientMask() {
       <Container className="">
          <FadeIn>
             <div className="noise grid grid-cols-1 place-items-center">
-               <h3 className="text-7xl font-black sm:text-9xl">
-                  A Heartfelt
-                  <span className="block">Thank You!</span>
-               </h3>
+               <h3 className="text-7xl font-black sm:text-9xl">Thank You!</h3>
             </div>
 
             <style>

@@ -9,16 +9,17 @@ import { DiscordCommunity } from '~/components/CTA/DiscordCommunity';
 import { StarMarquee } from '~/components/CTA/StarMarquee';
 import { ExpandingNetwork } from '~/components/CTA/ExpandingNetwork';
 import { SlideShow } from '~/components/CTA/SlideShow';
+import { Sponsors } from '~/components/CTA/Sponsors';
 
 export const meta: MetaFunction = () => {
    return [
       {
-         title: 'DEVSA is a educational non-profit organization for the software development and engineer community',
+         title: 'DEVSA is a educational non-profit organization for the software development community',
       },
       {
          name: 'DEVSA - Leveraging the power of our tech community in San Antonio',
          content:
-            'DEVSA is a educational non-profit organization for the software development and engineer community',
+            'DEVSA is a educational non-profit organization for the software development community',
       },
    ];
 };
@@ -36,6 +37,7 @@ export default function Index() {
          <ShopSection />
          <ExpandingNetwork />
          <SponsorMask />
+         <Sponsors />
       </>
    );
 }
