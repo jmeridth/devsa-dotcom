@@ -1,5 +1,10 @@
 {
-   "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/routes/board/dual-focus.jsx"],
+   "include": [
+      "remix.env.d.ts",
+      "**/*.ts",
+      "**/*.tsx",
+      "app/routes/board/dual-focus.jsx"
+   ],
    "compilerOptions": {
       "lib": ["DOM", "DOM.Iterable", "ES2022"],
       "isolatedModules": true,

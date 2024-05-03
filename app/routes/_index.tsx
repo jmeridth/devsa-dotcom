@@ -8,7 +8,7 @@ import { WavyBackgroundHero } from '~/components/CTA/WavyHero';
 import { DiscordCommunity } from '~/components/CTA/DiscordCommunity';
 import { StarMarquee } from '~/components/CTA/StarMarquee';
 import { ExpandingNetwork } from '~/components/CTA/ExpandingNetwork';
-import { Slides } from "~/components/CTA/slides"
+import { SlideShow } from '~/components/CTA/SlideShow';
 
 export const meta: MetaFunction = () => {
    return [
@@ -27,7 +27,7 @@ export default function Index() {
    return (
       <>
          <WavyBackgroundHero />
-         <Slides />
+         <SlideShow />
          <DiscordCommunity />
          <BeyondHeadlines />
          <MissionSection />

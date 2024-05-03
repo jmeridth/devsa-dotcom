@@ -38,7 +38,7 @@ export function ShopSection() {
                target="_blank"
                rel="noopener noreferrer"
             >
-               <button className="mt-8 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-neutral-950 hover:bg-neutral-100">
+               <button className="mt-8 inline-flex rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-neutral-950 transition hover:bg-neutral-100">
                   Shop Now
                </button>
             </Link>

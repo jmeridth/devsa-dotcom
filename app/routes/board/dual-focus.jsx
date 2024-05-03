@@ -8,7 +8,9 @@ export function DualFocus() {
       <div className="mt-24 pb-24 pt-24">
          <SectionIntro title="Dual Focus Approach" invert={false}>
             <p>
-               By combining developer experience with strategic expertise, our Board ensures DEVSA stays true to its mission while propelling the San Antonio developer community forward
+               By combining developer experience with strategic expertise, our
+               Board ensures DEVSA stays true to its mission while propelling
+               the San Antonio developer community forward
             </p>
          </SectionIntro>
          <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">
@@ -59,14 +61,18 @@ function Developers() {
       >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
-               One pillar of our Board is comprised of <strong>experienced San Antonio developers.</strong>
-               They bring a deep understanding of the local developer landscape, having faced the same challenges and needs themselves.  
-               This intimate connection ensures that DEVSA stays focused on delivering value that directly impacts the community's growth
+               One pillar of our Board is comprised of{' '}
+               <strong>experienced San Antonio developers.</strong>
+               They bring a deep understanding of the local developer landscape,
+               having faced the same challenges and needs themselves. This
+               intimate connection ensures that DEVSA stays focused on
+               delivering value that directly impacts the community's growth
             </p>
             <p>
-               Their passion for <strong>developer success</strong> fuels our efforts to create a <strong>thriving environment</strong> where developers can learn, collaborate, and solve problems together
+               Their passion for <strong>developer success</strong> fuels our
+               efforts to create a <strong>thriving environment</strong> where
+               developers can learn, collaborate, and solve problems together
             </p>
-
          </div>
       </Section>
    );
@@ -82,16 +88,28 @@ function Advisors() {
       >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
-               The other pillar of our Board is a team of <strong>growth-focused advisors.</strong>
-               These experienced professionals offer invaluable guidance in strategic planning, fundraising, and relationship building. 
-               With their expertise, DEVSA can <strong>scale its operations</strong> and secure resources to <strong>further empower developers</strong>
+               The other pillar of our Board is a team of{' '}
+               <strong>growth-focused advisors.</strong>
+               These experienced professionals offer invaluable guidance in
+               strategic planning, fundraising, and relationship building. With
+               their expertise, DEVSA can <strong>
+                  scale its operations
+               </strong>{' '}
+               and secure resources to{' '}
+               <strong>further empower developers</strong>
             </p>
             <p>
-               Their <strong>extensive connections</strong> with larger organizations help us forge <strong>impactful partnerships</strong> that open doors for San Antonio's developer talent, unlocking new opportunities for their growth and success
+               Their <strong>extensive connections</strong> with larger
+               organizations help us forge{' '}
+               <strong>impactful partnerships</strong> that open doors for San
+               Antonio's developer talent, unlocking new opportunities for their
+               growth and success
             </p>
             <p>
                <strong>
-                  Together, this dual-focused Board provides the leadership and vision required to create a thriving developer ecosystem in San Antonio
+                  Together, this dual-focused Board provides the leadership and
+                  vision required to create a thriving developer ecosystem in
+                  San Antonio
                </strong>
             </p>
          </div>

@@ -10,14 +10,17 @@ export default function Index() {
       <>
          <PageIntro title="Connect with the Software Development Community!">
             <p>
-               The DEVSA community thrives on fostering learning, collaboration, and growth for developers of all experience levels. 
-               Dive into our exciting lineup of events and unlock valuable opportunities
+               The DEVSA community thrives on fostering learning, collaboration,
+               and growth for developers of all experience levels. Dive into our
+               exciting lineup of events and unlock valuable opportunities
             </p>
             <div className="mt-10 max-w-2xl space-y-6 text-base">
-            <p>
-               <strong>Don't miss out!</strong> Stay up-to-date on all upcoming DEVSA events and subscribe to our calendar with a single click!   
-            </p>
-          </div>
+               <p>
+                  <strong>Don't miss out!</strong> Stay up-to-date on all
+                  upcoming DEVSA events and subscribe to our calendar with a
+                  single click!
+               </p>
+            </div>
             <Button className="mt-8" href="https://lu.ma/devSA" invert={false}>
                Subscribe to DEVSA Events Calendar
             </Button>

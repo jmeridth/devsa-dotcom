@@ -5,17 +5,20 @@ import { Button } from '~/components/Button';
 
 export function WavyBackgroundHero() {
    return (
-      <WavyBackground className="mx-auto max-w-4xl px-6 lg:px-8 pb-40" speed="slow">
+      <WavyBackground
+         className="mx-auto max-w-4xl px-6 pb-40 lg:px-8"
+         speed="slow"
+      >
          <h1 className="lg:text-center">
             <span className="font-display mx-auto mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-800 sm:text-7xl">
                Code and Community <br />
-               Empowering Developers 
+               Empowering Developers
             </span>
          </h1>
          <p className="mx-auto mt-6 max-w-3xl text-balance text-xl text-neutral-700 lg:text-center">
-            <strong>Born out of Frustration, Built for Empowerment!</strong>{' '}
-            We are an educational non-profit for the software development
-            community in San Antonio
+            <strong>Born out of Frustration, Built for Empowerment!</strong> We
+            are an educational non-profit for the software development community
+            in San Antonio
          </p>
          <div className="item-center flex lg:justify-center">
             <Button

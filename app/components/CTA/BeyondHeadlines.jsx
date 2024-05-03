@@ -46,8 +46,9 @@ export function BeyondHeadlines() {
                      hinders the tech sector's true potential
                   </ListItem>
                   <ListItem title="Call for Action">
-                     We refuse to let the headlines overshadow the needs of San Antonio's developer community. 
-                     Together, we'll write the next chapter of San Antonio's tech story
+                     We refuse to let the headlines overshadow the needs of San
+                     Antonio's developer community. Together, we'll write the
+                     next chapter of San Antonio's tech story
                   </ListItem>
                </List>
             </div>
