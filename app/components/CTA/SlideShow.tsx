@@ -5,19 +5,19 @@ import clsx from 'clsx';
 export function SlideShow() {
    const images = [
       'https://res.cloudinary.com/jessebubble/image/upload/v1714599163/prodigy_spdkya.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714599150/datascience_rk8kdm.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714749458/gemini_mpkgdz.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/rosbel_ujiwrr.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/coder-study-group_iwri1f.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/jose_iverog.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714752581/amc-sa_wevspf.jpg',
-      'https://res.cloudinary.com/jessebubble/image/upload/v1714752632/hands_eur00y.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763416/gdg2_uemsdw.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763419/gdg5_n8aeo4.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763415/gdg1_qv8fw3.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763417/gdg3_xv51fs.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763417/gdg4_gtguto.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/coder-study-group_iwri1f.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/jose_iverog.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714752581/amc-sa_wevspf.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714752632/hands_eur00y.jpg',
       'https://res.cloudinary.com/jessebubble/image/upload/v1714763419/gdg6_q42v0n.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714599150/datascience_rk8kdm.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714749458/gemini_mpkgdz.jpg',
+      'https://res.cloudinary.com/jessebubble/image/upload/v1714752461/rosbel_ujiwrr.jpg',
    ];
 
    return (
@@ -50,7 +50,6 @@ export function SlideShow() {
                      }}
                   >
                      <span className="font-display mx-auto lg:mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-white sm:text-6xl">
-                        <span className="hidden">Born out of Frustration</span>{' '}
                         <span className="">Built for Empowerment</span>
                      </span>
                   </motion.h1>

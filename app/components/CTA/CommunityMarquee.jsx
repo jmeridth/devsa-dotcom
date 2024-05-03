@@ -68,10 +68,6 @@ export function MarqueeSection() {
 
 const imageArray = [
    {
-      name: 'leetcode',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507371/leetcode-club-nobg-light_defbcu.png',
-   },
-   {
       name: 'llmodelos',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533290/logo-llm-light_ma2tca.png',
    },
@@ -82,6 +78,10 @@ const imageArray = [
    {
       name: 'frontend',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507960/logo-frontend-light_qsxh6s.png',
+   },
+   {
+      name: 'leetcode',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507371/leetcode-club-nobg-light_defbcu.png',
    },
    {
       name: 'study-group',

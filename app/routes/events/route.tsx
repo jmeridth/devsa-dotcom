@@ -8,7 +8,7 @@ import { CalendarSection } from '~/components/CTA/Calendar';
 export default function Index() {
    return (
       <>
-         <PageIntro title="Connect with the Software Development Community!">
+         <PageIntro title="Connect with the DEV Community in SA!">
             <p>
                The DEVSA community thrives on fostering learning, collaboration,
                and growth for developers of all experience levels. Dive into our
