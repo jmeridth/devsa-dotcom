@@ -221,7 +221,7 @@ const ImagesSlider = ({
                   animate="visible"
                   exit={direction === 'up' ? 'upExit' : 'downExit'}
                   variants={slideVariants}
-                  className="image absolute inset-0 h-full w-full lg:object-cover lg:object-center object-contain"
+                  className="image absolute inset-0 h-full w-full object-cover object-center"
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   alt="collection of community events and meetups in San Antonio"
                />
