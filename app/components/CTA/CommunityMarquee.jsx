@@ -68,28 +68,20 @@ export function MarqueeSection() {
 
 const imageArray = [
    {
-      name: 'llmodelos',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533290/logo-llm-light_ma2tca.png',
-   },
-   {
       name: 'leetcode',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507371/leetcode-club-nobg-light_defbcu.png',
+   },
+   {
+      name: 'llmodelos',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533290/logo-llm-light_ma2tca.png',
    },
    {
       name: 'datastream',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533433/logo-discord-data-light_tfxoy5.png',
    },
    {
-      name: 'blog',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533960/community-blog-nobg-light_vrfbyc.png',
-   },
-   {
       name: 'frontend',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507960/logo-frontend-light_qsxh6s.png',
-   },
-   {
-      name: 'social',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507372/social-lounge-nobg-light_mcumav.png',
    },
    {
       name: 'study-group',

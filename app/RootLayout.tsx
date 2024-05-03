@@ -135,15 +135,15 @@ function Navigation() {
    return (
       <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
          <NavigationRow>
-            <NavigationItem href="/about">
+            <NavigationItem href="/story">
                Our Story <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
-            <NavigationItem href="/">
+            <NavigationItem href="/board">
                The Board <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
          </NavigationRow>
          <NavigationRow>
-            <NavigationItem href="/">
+            <NavigationItem href="/vision">
                Our Vision <span className="arrow text-spursTurq">→</span>
             </NavigationItem>
             <NavigationItem href="/events">
