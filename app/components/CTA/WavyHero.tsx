@@ -23,12 +23,12 @@ export function WavyBackgroundHero() {
          <div className="item-center flex lg:justify-center">
             <Button
                className="mt-8"
-               href="https://donate.stripe.com/00g3cq2yM2XsbGU144"
+               href="/story"
                invert={false}
             >
                Learn More
             </Button>
-            <Button className="ml-4 mt-8" href="/contact" invert={true}>
+            <Button className="ml-4 mt-8" href="https://donate.stripe.com/00g3cq2yM2XsbGU144" invert={true}>
                Donate Now <span className="arrow">→</span>
             </Button>
          </div>
