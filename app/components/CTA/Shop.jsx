@@ -6,16 +6,6 @@ import { Link } from '@remix-run/react';
 import { useRef } from 'react';
 
 export function ShopSection() {
-   let rotations = [
-      'rotate-2',
-      '-rotate-2',
-      'rotate-2',
-      'rotate-2',
-      '-rotate-2',
-      'rotate-2',
-      '-rotate-2',
-   ];
-
    const scrollContainerRef = useRef(null);
 
    const handleImageLoad = () => {
@@ -46,12 +36,12 @@ export function ShopSection() {
             <FadeIn>
                <div
                   ref={scrollContainerRef}
-                  className="-my-4 flex justify-center gap-5 overflow-x-auto py-4 sm:gap-8"
+                  className="grid max-h-[60dvh] grid-cols-1 gap-6 overflow-y-auto sm:grid-cols-2 sm:gap-8 md:max-h-full md:grid-cols-3 md:gap-10"
                >
                   {mockups.map((mockup, index) => (
                      <div
                         key={index}
-                        className="relative h-64 w-64 flex-none sm:h-80 sm:w-80"
+                        className="relative mx-6 flex-none sm:mx-0"
                      >
                         <div className="absolute inset-0 rounded-xl" />
                         <Link
@@ -62,7 +52,7 @@ export function ShopSection() {
                            <GrayscaleTransitionImage
                               src={mockup.src}
                               alt={mockup.alt}
-                              className={`slideZoom relative h-full w-full rounded-3xl object-contain ${rotations[index]}`}
+                              className={`slideZoom relative h-full w-full rounded-xl object-contain`}
                               onLoad={handleImageLoad}
                            />
                         </Link>
@@ -114,11 +104,6 @@ export function ShopSection() {
 }
 
 const mockups = [
-   {
-      src: 'https://res.cloudinary.com/jessebubble/image/upload/v1708540839/printify/Lifestyle_alkmqv.jpg',
-      alt: 'devSA Terminal React Tee',
-      href: '',
-   },
    {
       src: 'https://res.cloudinary.com/jessebubble/image/upload/v1708540839/printify/Lifestyle_alkmqv.jpg',
       alt: 'devSA Terminal React Face Tee',
