@@ -63,7 +63,7 @@ export function SlideShow() {
                            delay: 0.3,
                         },
                      }}
-                     className="mx-auto mt-6 max-w-3xl text-balance text-center text-xl text-neutral-300"
+                     className="mx-auto mt-6 max-w-3xl text-balance text-center text-xl text-indigo-50"
                   >
                      Our mission is to empower developers with the tools,
                      knowledge, and connections they need to thrive. Together,

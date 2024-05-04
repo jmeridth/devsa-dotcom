@@ -1,7 +1,5 @@
 import type { MetaFunction } from '@remix-run/node';
 import { MissionSection } from '~/components/CTA/TheMission';
-import { BeyondHeadlines } from '~/components/CTA/BeyondHeadlines';
-import { SponsorMask } from '~/components/CTA/SponsorMask';
 import { ShopSection } from '~/components/CTA/Shop';
 import { CalendarSection } from '~/components/CTA/Calendar';
 import { WavyBackgroundHero } from '~/components/CTA/WavyHero';
@@ -29,14 +27,12 @@ export default function Index() {
       <>
          <WavyBackgroundHero />
          <SlideShow />
+         <ExpandingNetwork />
          <DiscordCommunity />
-         <BeyondHeadlines />
          <MissionSection />
          <StarMarquee />
          <CalendarSection />
          <ShopSection />
-         <ExpandingNetwork />
-         <SponsorMask />
          <Sponsors />
       </>
    );

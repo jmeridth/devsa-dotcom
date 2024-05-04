@@ -34,16 +34,12 @@ export function ExpandingNetwork() {
    return (
       <>
          <SectionIntro
-            title="Collaborate & Elevate the San Antonio Tech Space"
+            title="Let's Collaborate and Elevate the Tech Space in SA!"
             className="mt-24 sm:mt-32 lg:mt-40"
          >
             <p>
-               We are seeking partnerships to create valuable content
-               (workshops, tutorials, tech talks) for our YouTube/Twitch
-               channels and GitHub.{' '}
-               <strong>
-                  Let's build a stronger developer community together!
-               </strong>
+               Help us build a stronger San Antonio developer community! 
+               We're seeking partnerships to create valuable content like workshops, tutorials, and tech talks for our YouTube/Twitch channels and GitHub
             </p>
          </SectionIntro>
          <Container className="mt-16">

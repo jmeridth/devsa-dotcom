@@ -6,12 +6,10 @@ import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 export function MissionSection() {
    return (
       <div className="mt-24 pb-24 pt-24">
-         <SectionIntro title="Our Mission Takes Flight!" invert={false}>
+         <SectionIntro title="Solving the Collaboration Puzzle in San Antonio" invert={false}>
             <p>
-               As the city solidifies its position as a cybersecurity hub and
-               fosters partnerships with Monterrey, Mexico and the South Texas
-               triangle, we're committed to ensuring our developers have the
-               tools and knowledge to thrive in this dynamic environment
+               While San Antonio celebrates its growing reputation as a cybersecurity hub and strengthens ties with Monterrey and the South Texas triangle, 
+               DEVSA remains committed to ensuring the needs of our developer community are not overlooked
             </p>
          </SectionIntro>
          <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">
@@ -55,7 +53,7 @@ function Section({ title, image, children }) {
 function Tech() {
    return (
       <Section
-         title="The city lacked a central platform for collaboration"
+         title="Our Mission Takes Flight!"
          image={{
             src: 'https://res.cloudinary.com/jessebubble/image/upload/v1714600496/devsa-bw-logo_cmhpef.png',
          }}
