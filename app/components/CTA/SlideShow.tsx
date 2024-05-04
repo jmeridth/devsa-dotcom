@@ -23,7 +23,10 @@ export function SlideShow() {
    return (
       <>
          <div className="relative mt-24 h-screen w-full sm:mt-32 lg:mt-40">
-            <ImagesSlider images={images}>
+            <ImagesSlider
+               images={images}
+               overlayClassName="absolute inset-0 bg-black bg-opacity-60 z-10"
+            >
                <motion.div
                   initial={{
                      opacity: 0,
