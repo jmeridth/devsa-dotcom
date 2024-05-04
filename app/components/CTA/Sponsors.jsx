@@ -31,7 +31,7 @@ export function Sponsors() {
                      />
                      <img
                         className="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1"
-                        src="https://res.cloudinary.com/jessebubble/image/upload/v1712714217/portsa_logoscolor-RGB_zpflwc.png"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/v1714781018/portsa_logoscolor_RGB_1813c4ef-8952-4d53-92ec-9f3311a12bef_qtvebw.avif"
                         alt="Port San Antonio"
                         width={158}
                         height={48}

@@ -18,16 +18,15 @@ export function CalendarSection() {
                <div className="">
                   <iframe
                      src="https://lu.ma/embed/calendar/cal-Jg0KUhNjt4lLR55/events?compact=true"
-                     frameborder="0"
                      style={{
                         border: '1px solid #bfcbda88',
                         borderRadius: '24px',
                         width: '100%',
                         height: '600px',
                      }}
-                     allowfullscreen=""
+                     allowFullScreen={true}
                      aria-hidden="false"
-                     tabindex="0"
+                     tabIndex="0"
                   ></iframe>
                </div>
             </FadeIn>

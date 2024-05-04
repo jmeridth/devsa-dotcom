@@ -8,7 +8,7 @@ export function BeyondHeadlines() {
    return (
       <div className="mt-24 sm:mt-32 lg:mt-40">
          <SectionIntro
-            title="Tech in San Antonio is Buzzing With Excitement"
+            title="The Tech Space is Buzzing With Excitement"
             invert={false}
          >
             <p>

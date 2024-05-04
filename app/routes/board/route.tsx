@@ -1,7 +1,6 @@
 import { PageIntro } from '~/components/PageIntro';
 import { Board } from './board';
 import { DualFocus } from './dual-focus';
-import { StarMarquee } from '~/components/CTA/StarMarquee';
 
 export default function Index() {
    return (
