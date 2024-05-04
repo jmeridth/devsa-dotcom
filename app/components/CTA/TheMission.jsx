@@ -6,10 +6,12 @@ import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 export function MissionSection() {
    return (
       <div className="mt-24 pb-24 pt-24">
-         <SectionIntro title="Solving the Collaboration Puzzle in San Antonio" invert={false}>
+         <SectionIntro title="Bridging the Gap in San Antonio" invert={false}>
             <p>
-               While San Antonio celebrates its growing reputation as a cybersecurity hub and strengthens ties with Monterrey and the South Texas triangle, 
-               DEVSA remains committed to ensuring the needs of our developer community are not overlooked
+               While San Antonio celebrates its growing reputation as a
+               cybersecurity hub and strengthens ties with Monterrey and the
+               South Texas triangle, DEVSA remains committed to ensuring the
+               needs of our developer community are not overlooked
             </p>
          </SectionIntro>
          <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">

@@ -38,8 +38,10 @@ export function ExpandingNetwork() {
             className="mt-24 sm:mt-32 lg:mt-40"
          >
             <p>
-               Help us build a stronger San Antonio developer community! 
-               We're seeking partnerships to create valuable content like workshops, tutorials, and tech talks for our YouTube/Twitch channels and GitHub
+               Help us build a stronger San Antonio developer community! We're
+               seeking partnerships to create valuable content like workshops,
+               tutorials, and tech talks for our YouTube/Twitch channels and
+               GitHub
             </p>
          </SectionIntro>
          <Container className="mt-16">

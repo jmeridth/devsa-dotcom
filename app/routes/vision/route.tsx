@@ -1,5 +1,5 @@
 import { PageIntro } from '~/components/PageIntro';
-import { TracingBeam } from './TracingBeam';
+import { VisionGrid } from './VisionGrid';
 import { Sponsors } from '~/components/CTA/Sponsors';
 
 export default function Index() {
@@ -16,7 +16,7 @@ export default function Index() {
             </p>
          </PageIntro>
 
-         <TracingBeam />
+         <VisionGrid />
          <Sponsors />
       </>
    );

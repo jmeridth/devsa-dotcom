@@ -3,7 +3,8 @@
       "remix.env.d.ts",
       "**/*.ts",
       "**/*.tsx",
-      "app/routes/board/dual-focus.jsx"
+      "app/routes/board/dual-focus.jsx",
+      "app/routes/vision/VisionGrid.jsx"
    ],
    "compilerOptions": {
       "lib": ["DOM", "DOM.Iterable", "ES2022"],
