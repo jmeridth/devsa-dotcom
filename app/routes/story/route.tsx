@@ -6,9 +6,9 @@ import { PageIntro } from '~/components/PageIntro';
 export default function Index() {
    return (
       <>
-         <PageIntro title="From Frustration to Community">
+         <PageIntro title="Born out of Frustration">
             <p>
-               <strong>The DEVSA Story:</strong> San Antonio's tech scene is
+               San Antonio's tech scene is
                booming with potential, but a nagging feeling persisted - the
                unsung heroes, our developers, faced hurdles hidden beneath the
                flashy headlines

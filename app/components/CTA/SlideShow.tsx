@@ -25,7 +25,7 @@ export function SlideShow() {
          <div className="relative mt-24 h-screen w-full sm:mt-32 lg:mt-40">
             <ImagesSlider
                images={images}
-               overlayClassName="absolute inset-0 bg-black bg-opacity-60 z-10"
+               overlayClassName="absolute inset-0 bg-neutral-900 bg-opacity-60 z-10"
             >
                <motion.div
                   initial={{
@@ -39,7 +39,7 @@ export function SlideShow() {
                   transition={{
                      duration: 0.6,
                   }}
-                  className="z-50 mx-auto max-w-7xl text-center sm:mt-32 lg:mt-40"
+                  className="z-50 mx-auto max-w-7xl text-center sm:mt-32"
                >
                   <motion.h1
                      initial={{
@@ -52,7 +52,7 @@ export function SlideShow() {
                         },
                      }}
                   >
-                     <span className="font-display mx-auto block max-w-5xl text-balance text-5xl font-medium tracking-tight text-white sm:text-6xl lg:mt-6">
+                     <span className="font-display mx-auto block max-w-5xl text-balance text-5xl font-medium tracking-tight text-white sm:text-6xl">
                         <span className="">Built for Empowerment</span>
                      </span>
                   </motion.h1>

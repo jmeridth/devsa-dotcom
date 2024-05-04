@@ -119,14 +119,4 @@ const mockups = [
       alt: 'devSA Terminal Logo Tee',
       href: 'https://devsanantonio.printify.me/product/5924654/unisex-garment-dyed-t-shirt',
    },
-   {
-      src: 'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_1_szs1sg.png',
-      alt: 'devSA Terminal Vite Tee',
-      href: 'https://devsanantonio.printify.me/product/5919627/unisex-garment-dyed-t-shirt',
-   },
-   {
-      src: 'https://res.cloudinary.com/jessebubble/image/upload/v1708540840/printify/Person_3_Front_p196aj.jpg',
-      alt: 'devSA Terminal Huggin Face Tee',
-      href: 'https://devsanantonio.printify.me/product/5919629/unisex-garment-dyed-t-shirt',
-   },
 ];
