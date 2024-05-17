@@ -64,12 +64,7 @@ const team = [
             name: 'Ileana González',
             role: 'CEO / Tech Bloc',
             image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714685480/ileana2_mif5p4.jpg',
-         },
-         {
-            name: 'Omar Quimbaya',
-            role: 'GitHub / Principal Field Security Specialist',
-            image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714685388/omar2_bpvdnz.jpg',
-         },
+         }
       ],
    },
 ];
