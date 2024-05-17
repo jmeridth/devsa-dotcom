@@ -72,22 +72,28 @@ export default function Index() {
 
 const events = [
    {
+      index: 5,
+      org: 'Greater Gaming Society',
+      topic: "Build with Unity: Game Development Workshop",
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1715968980/buildwithunity-7_2_sgi4z8.png',
+   },
+   {
       index: 4,
       org: 'PyTexas - Alamo Python',
-      topic: "Safeguarding LLM's with Guardrails",
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714537942/devsa-alamopython-2_3_qh0org.png',
+      topic: "Build with Python: Safeguarding LLM's with Guardrails",
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1715968980/devsa-alamopython-2_yylbby.png',
    },
    {
       index: 3,
       org: 'DEVSA Discord Community Space',
       topic: 'Social Lounge: Unwind & Connect',
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714599180/social-lounge-2_1_o91vyl.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1715968980/social-lounge-3_p90cuk.png',
    },
    {
       index: 2,
       org: 'DEVSA',
       topic: 'Coffee & Collaboration',
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1714538684/devsa-coffee-wednesdays-1_qzfqm1.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1715968980/devsa-coffee-wednesdays-1_1_vvy3nz.png',
    },
    {
       index: 1,

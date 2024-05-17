@@ -68,23 +68,23 @@ export function MarqueeSection() {
 
 const imageArray = [
    {
+      name: 'grupo-optimizers',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1715969601/grupo-optimizers_n3uk6n.png',
+   },
+   {
+      name: 'science-data',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1715969601/science-data_loauni.png',
+   },
+   {
       name: 'llmodelos',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533290/logo-llm-light_ma2tca.png',
    },
    {
-      name: 'datastream',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533433/logo-discord-data-light_tfxoy5.png',
-   },
-   {
-      name: 'frontend',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507960/logo-frontend-light_qsxh6s.png',
+      name: 'study-group',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1715969712/coder-study-group_yvjb5o.png',
    },
    {
       name: 'leetcode',
       href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714507371/leetcode-club-nobg-light_defbcu.png',
-   },
-   {
-      name: 'study-group',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1714533792/coder-study-group-nobg-light_othbjt.png',
    },
 ];
